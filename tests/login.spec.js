@@ -5,8 +5,6 @@ test('login Test case', async function ({page}) {
 
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     
-    
-
     console.log(await page.viewportSize().height)
 
     console.log(await page.viewportSize().width)
